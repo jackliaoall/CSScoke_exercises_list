@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .jack {
+            width: 100%;
+            height: 300px;
+        }
+
+        .jack1 {
+            background-color: #faa;
+        }
+        .jack2 {
+            background-color: #aaf;
+        }
+
+        @media screen and (min-width: 768px){ 
+            .jack {
+                background-color: #f00;
+                display: block;
+            }
+        }
+        @media screen and (min-width: 1200px){ 
+            .jack {
+                background-color: #00f;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="jack jack1">jack1</div>
+    <div class="jack jack2">jack2</div>
+
+</body>
+</html>
